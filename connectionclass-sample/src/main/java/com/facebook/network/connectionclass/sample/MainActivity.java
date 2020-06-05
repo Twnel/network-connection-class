@@ -35,7 +35,7 @@ public class MainActivity extends Activity {
   private TextView mTextView;
   private View mRunningBar;
 
-  private String mURL = "http://connectionclass.parseapp.com/m100_hubble_4060.jpg";
+  private String mURL = "https://i.imgur.com/BNjCRQv.jpeg";
   private int mTries = 0;
   private ConnectionQuality mConnectionClass = ConnectionQuality.UNKNOWN;
 

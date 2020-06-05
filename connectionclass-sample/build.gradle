@@ -5,18 +5,17 @@ repositories {
 }
 
 android {
-    compileSdkVersion 21
-    buildToolsVersion "21.1.2"
+    compileSdkVersion 29
 
     defaultConfig {
         applicationId "com.facebook.network.connectionclass.sample"
-        minSdkVersion 9
-        targetSdkVersion 21
+        minSdkVersion 21
+        targetSdkVersion 28
         versionCode 1
         versionName "1.0"
     }
 }
 
 dependencies {
-    compile project (":connectionclass")
+    implementation project (":connectionclass")
 }
